@@ -1,0 +1,28 @@
+# Local input data and generated analysis output
+bin_files/*
+!bin_files/.gitkeep
+*.bin
+*.xlsx
+*.csv
+*_summary.json
+fft_results*/*
+!fft_results*/.gitkeep
+results*/
+
+# Python environments and caches
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local secrets and editor settings
+.env
+.env.*
+.aws/
+.codex/
+.agents/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
